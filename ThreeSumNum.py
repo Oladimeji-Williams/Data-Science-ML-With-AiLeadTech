@@ -10,7 +10,3 @@ def ThreeSumNum(arr=None, tar=None):
         i.sort()
     ThreeNum.sort()  # sorts each triplet of the ThreeNum
     return ThreeNum
-
-
-c = ThreeSumNum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 21)
-print(c)
